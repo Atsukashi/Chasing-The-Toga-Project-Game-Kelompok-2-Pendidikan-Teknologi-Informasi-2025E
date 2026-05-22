@@ -67,10 +67,6 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
 
     // --- 5. CONSTRUCTOR ---
     public GamePanel() {
-        daftarUsername.add("David Fidan");
-        daftarHighScore.add(999);          
-        daftarUsername.add("Maba UNESA");
-        daftarHighScore.add(999);
 
         initGame(); 
         loadUIAssets(); 
